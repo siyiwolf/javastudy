@@ -8,7 +8,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class LoginServlet extends HttpServlet{
-	UsrManager usrManager = null;
+	private UsrManager usrManager = null;
+	private DaoManager daoManager = null;
 	
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
@@ -17,12 +18,26 @@ public class LoginServlet extends HttpServlet{
 		String uPassword = req.getParameter("password");
 		System.out.println(uName + "+" + uPassword);
 		
-		if (usrManager == null)
+		/*if (usrManager == null)
 		{
 			return;
 		}
 		
 		if (usrManager.logVerity(uName, uPassword))
+		{
+			resp.sendRedirect("loginSuccess.html");
+		}
+		else
+		{
+			resp.sendRedirect("loginFail.html");
+		}*/
+		
+		if (daoManager == null)
+		{
+			System.out.println("Data initalization failed!");
+		}
+		
+		if (daoManager.verityAccount(new UserAccount(uName, uPassword)))
 		{
 			resp.sendRedirect("loginSuccess.html");
 		}
@@ -42,6 +57,7 @@ public class LoginServlet extends HttpServlet{
 	@Override
 	public void init() throws ServletException {
 		usrManager = UsrManager.getInstance();
+		daoManager = DaoManager.getInstance();
 		System.out.println("Login servlet get the data manage tool!");
 	}
 
