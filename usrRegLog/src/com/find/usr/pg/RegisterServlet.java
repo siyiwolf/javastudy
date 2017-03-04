@@ -46,7 +46,7 @@ public class RegisterServlet extends HttpServlet{
 			System.out.println("Data initalization failed!");
 		}
 		
-		if (daoManager.insertAccount(new UserAccount(uName, uPassword)) == 0)
+		if (daoManager.insertAccount(new UserAccount(uName, uPassword)) != 0)
 		{
 			System.out.println("RegisterServlet add success!");
 			resp.sendRedirect("login.html");
