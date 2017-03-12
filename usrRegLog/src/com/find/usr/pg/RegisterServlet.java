@@ -24,6 +24,19 @@ public class RegisterServlet extends HttpServlet{
 			throws ServletException, IOException {
 		String uName = req.getParameter("uname");
 		String uPassword = req.getParameter("password");
+		String rPassword = req.getParameter("rpassword");
+		if (uPassword == null)
+		{
+			
+			resp.sendRedirect("register.html");
+			return;
+		}
+		
+		if (!(uPassword.equals(rPassword)))
+		{
+			resp.sendRedirect("register.html");
+			return;
+		}
 		System.out.println(uName + "+" + uPassword);
 		/*if (usrManager == null)
 		{
