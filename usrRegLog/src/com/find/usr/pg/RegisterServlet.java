@@ -53,7 +53,7 @@ public class RegisterServlet extends HttpServlet{
 		}
 		else
 		{
-			resp.sendRedirect("registerFail.html");
+			resp.sendRedirect("fail.html");
 		}
 	}
 
