@@ -39,11 +39,11 @@ public class LoginServlet extends HttpServlet{
 		
 		if (daoManager.verityAccount(new UserAccount(uName, uPassword)))
 		{
-			resp.sendRedirect("loginSuccess.html");
+			resp.sendRedirect("success.html");
 		}
 		else
 		{
-			resp.sendRedirect("loginFail.html");
+			resp.sendRedirect("fail.html");
 		}
 		
 	}
