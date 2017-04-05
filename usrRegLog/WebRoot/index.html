@@ -1,192 +1,144 @@
-﻿<!DOCTYPE html>
-<!--
-	欢迎体验HBuilder，最快的web编码工具。
-	烈马是需要驯服的，玩不转HBuilder，你快不了。
-	按照lessson1.txt的指导敲击键盘，你会发现HBuilder的神奇所在。
-	你可以用任何其他工具敲这段代码，至少比HBuilder慢5倍!
-	写几十行代码，来一场无鼠标编程之旅，看看who is e。
-	Are you ready?
-	小贴士：可以把lesson1.txt拖到右边或下边，实现分窗格并排浏览。
-	在注释后的第12行开始敲下lesson1里的按键。
--->
+<!DOCTYPE html>
 <html>
 	<head>
-		<title>主页</title>
-		<link rel="stylesheet" type="text/css" href="test.css"/>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/find.css"/>
 	</head>
-	
 	<body>
-		<div class="classContain">
-			<div class="classblank"></div>
-			<div class="classcontext">
-				<div class="classheader">
-					<div class="classloc">
-						<a href="index.html"><img src="img/favicon.ico"/></a>
-					</div>
-					<div class="classloc">
-						<a href="http://www.baidu.com">介绍</a>
-					</div>	
-					<div class="classloc">
-						<a href="http://www.baidu.com">导航</a>
-					</div>
-					<div class="classhbank"></div>
-					<div class="classform">
-						<form action="" method="post">
-							<input type="text" name="serchcontext" placeholder="搜索内容"/>
-						</form>
-					</div>
-					<div class="classloc">
-						<a href="login.html">登录</a>
-					</div>
-					<div class="classloc">
-						<a href="register.html">注册</a>
+		<header>
+			<div class="blank"></div>
+			<div class="lhcontext">
+				<div class="imgloc">
+					<a href="index.html"><img src="img/img_0025.png"/></a>
+				</div>
+				<div class="textloc">
+					<a href="#"><p>网站介绍</p></a>
+				</div>
+				<div class="textloc">
+					<a href="#"><p>特色说明</p></a>
+				</div>
+				<div class="textloc">
+					<a href="#"><p>市场推广</p></a>
+				</div>
+			</div>
+			<div class="rhcontext">
+				<form action="" method="get">
+					<input type="search" value="搜索" />
+				</form>
+				<ul>
+					<li><a href="register.html"><p>注册</p></a></li>
+					<li>或</li>
+					<li><a href="login.html"><p>登录</p></a></li>
+				</ul
+			</div>
+		</header>
+		<div class="acontext">
+			<div class="fcontext">
+				<div class="blank"></div>
+				<div class="lhcontext">
+					<div class="maintext">
+						<h1>领一只狗，养一只猫</h1>
+						<p>领一只猫，养一只狗，换一种人生方式面对寂寞周末;
+							趁着阳光明媚，风景正好，带着猫和狗坐在湖边的长椅小憩;
+							迎着风，牵着猫，赶着狗，沿着湖边小跑，是另一种的思考人生的方式 !!</p>
 					</div>
 				</div>
-				<div class="classintro">
-					<div class="classinleft">
-						<div class="classformk"></div>
-						<div class="classformk">
-							<font size="9" color="#00008B">
-								<b>领一只猫，养一只狗</b>
-							</font>
-						</div>
-						<div class="classformk">
-							<font size="4" color="brown">
-								领一只猫，养一只狗，换一种人生方式面对寂寞周末 <br/><br/>
-								趁着阳光明媚，风景正好，带着猫和狗坐在湖边的长椅小憩<br/><br/>
-								迎着风，牵着猫，赶着狗，沿着湖边小跑，是另一种的思考人生的方式<br/>
-							</font>
-						</div>
-						<div class="classformk"></div>
-					</div>
-					<div class="classinrigh">
-						<div class="classformk"></div>
-						<div class="classformh">
-							<form action="testRegister" method="get">
-								<input type="text" name="uname" placeholder="注册名称"/><br/>
-							</form>
-							
-						</div>
-						<div class="classformh">
-							<form action="testLogin" method="get">
-								<input type="text" name="uname" placeholder="用户名"/><br/><br/>
-								<input type="password" name="password" placeholder="密码"/><br/><br/>
-								<input type="submit" value="登录"/><br/><br/>
-							</form>
-						</div>
-						<!--<div class="classformh">
-							<form action="" method="get">
-								<input type="password" password="password" placeholder="密码"/>
-							</form>
-						</div>
-						<div class="classformh">
-							<form action="" method="post">
-								<input type="submit" value="sumit" size="100px"/>
-							</form>
-						</div>
-						<div class="classformh">
-							注册OR登录
-						</div>-->
+				<div class="rhcontext">
+					<div class="mainform">
+						<form class="rform" action="" method="post">
+							<input type="text" value="选择用户名"/>
+						</form>
+						
+						<form class="lform" action="" method="post">
+							<input type="text" value="邮箱名称"/>
+						</form>
+						
+						<form class="lform" action="" method="post">
+							<input type="text" value="输入密码"/>
+						</form>
+						<form class="sform" action="testLogin" method="get">
+							<input type="submit" value="注册"/>
+						</form>
 					</div>
 				</div>
 			</div>
-			<div class="classblank"></div>
+			<div clear:both>
+			</div>
+			<div class="scontext">
+				<div class="piction">
+					<img src="img/cat.png"/>
+					<img src="img/dog.png"/>
+					<br>
+					<h4 class="imgname">宠物d世界</h4>
+				</div>
+				<div class="intext">
+					<br />
+					<h1>一个忠诚的伙伴</h1>
+					<br />
+					<p>注册一个账户，献上一份爱心</p><br />
+					<p>本收养站等待您的到来，领走一个忠诚的伙伴</p><br>
+					<p>做一个善良的人，幸福有爱的人</p>
+				</div>
+			</div>
 		</div>
+		<footer>
+			<div class="topdownblank"></div>
+			<div class="footcontext">
+				<div class = "rownum"></div>
+				<div class = "rownum">
+					<h3>宠物之家</h3>
+					<p>© 2018</p>
+				</div>
+				<div class = "rownum">
+					<h3>网站特色</h3>
+					<br />
+					<ul>
+						<li><a href="#">宠物领养</a></li>
+						<li><a href="#">经验交流</a></li>
+						<li><a href="#">特性配对</a></li>
+						<li><a href="#">消息反馈</a></li>
+					</ul>
+				</div>
+				<div class = "rownum">
+					<h3>社区交流</h3>
+					<br />
+					<ul>
+						<li><a href="#">猫世界</a></li>
+						<li><a href="#">狗天地</a></li>
+						<li><a href="#">其他</a></li>
+					</ul>
+				</div>
+				<div class = "rownum">
+					<h3>活动介绍</h3>
+					<br />
+					<ul>
+						<li><a href="#">定期活动</a></li>
+						<li><a href="#">活动申请</a></li>
+						<li><a href="#">个人风采</a></li>
+						<li><a href="#">宠物与我</a></li>
+					</ul>
+				</div><div class = "rownum">
+					<h3>资源分享</h3>
+					<br />
+					<ul>
+						<li><a href="#">招领启示</a></li>
+						<li><a href="#">宠物走失</a></li>
+						<li><a href="#">最新宠物</a></li>
+					</ul>
+				</div>
+				<div class = "rownum">
+					<h3>合作单位</h3>
+					<br />
+					<ul>
+						<li><a href="http://www.wuhan.gov.cn/">武汉市政厅</a></li>
+						<li><a href="http://www.whxc.org.cn//">武汉市政府宣传部</a></li>
+						<li><a href="http://www.whwsjs.gov.cn/">武汉市卫生局</a></li>
+					</ul>
+				</div>
+				
+				
+			</div>
+		</footer>
 	</body>
 </html>
-
-
-
-
-
-
-
-
-<!--
-这里是最终敲完的正确代码，可用于比对
-<html>
-	<head>
-		<title></title>
-		<meta charset="UTF-8"/>
-		<script src="test.js" type="text/javascript" charset="utf-8"></script>
-		<script type="text/javascript">
-			function WhoisE () {
-				var e;
-				e = document.getElementsByClassName("classA");
-				e = document.getElementsByTagName("div");
-				e = document.getElementById("d1");
-				e.setAttribute("align","center");
-				e.setAttribute("data-test","2");
-				e.style.fontFamily="微软雅黑";
-				e.style.backgroundImage="url(img/HBuilder.png)";
-				e.style.cssText="background-image: url(img/HBuilder.png);";
-				switch (e.style.display){
-					case "-webkit-box":
-						break;
-					default:
-						break;
-				}
-				if (e.getAttribute("class")!="classA") {
-					e.className="classA";
-				}
-				e.innerHTML="<font color='#CCCCCC'></font>";
-				e = document.getElementById("a1");
-				e.href="#a1";
-				e.target="_blank";
-				e = new Image();
-				e.src="img/HBuilder.png";
-				e = window.indexedDB || window.webkitIndexedDB || window.msIndexedDB || window.mozIndexedDB;
-				if (typeof(e)!="undefined") {
-					e.open("test");
-				}
-				var head = document.getElementsByTagName("head")[0];
-				with (head){
-					var l = lastElementChild;
-					removeChild(l);
-				}
-				e = document.createElement("link");
-				e.rel="stylesheet";
-				e.type="text/css";
-				e.href="test.css";
-				head.appendChild(e);
-				var ss="e is ";
-				if (e.getAttribute("data-test")==null) {
-					ss=ss+e.outerHTML;
-				} else{
-					ss=ss+"unknow";
-				}
-				alert(ss)
-			}
-			addEventListener("DOMContentLoaded",function () {
-				finishLesson(1)
-			})
-		</script>
-		<style type="text/css">
-			body{
-				text-align: center;
-				-webkit-user-select: none;
-			}
-			input[type=button]{
-				width: 90px;
-			}
-			ul{display: none}
-			#d1{
-				font-family: "微软雅黑";
-				background-image: url(img/HBuilder.png)
-			}
-		</style>
-		<link rel="stylesheet" type="text/css" href="test.css"/>
-	</head>
-	<body>
-		<img src="img/HBuilder.png"/>
-		<br />
-		<div id="d1" class="classA" data-test = "1"></div>
-		<a href="#a1" id="a1"></a>
-		<ul>
-			<li></li>
-		</ul>
-		<nav>&nbsp;</nav>
-		<input type="button" name="" id="" value="who is e" onclick="WhoisE()" />
-	</body>
-</html>
--->

@@ -1,0 +1,423 @@
+*{margin: 0px; padding: 0px;}
+
+header
+{
+	width:100%;
+	height: 70px;
+	margin: 0px;
+	background-color: black;
+	opacity:0.85;
+}
+
+.blank
+{
+	width: 10%;
+	height: 100%;
+	float: left;
+}
+
+.lhcontext
+{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.rhcontext
+{
+	height: 100%;
+	line-height: 70px;
+	float: left; 
+}
+
+header form
+{
+	display: inline-block;
+}
+
+header form input
+{
+	width: 200px;
+	height: 32px;
+	background-color: #282828;
+	color:gray;
+	font-family: "微软雅黑";
+	border: 0px;
+	border-radius: 4px;
+}
+
+header ul{display: inline-block;}
+
+header ul li
+{
+	color: grey;
+	display: inline-block;
+}
+
+.imgloc
+{
+	width: 48px;
+	height: 48px;
+	margin: 11px;
+	border:0px;
+	border-radius: 48px;
+	background-color: white;
+	float: left;
+}
+
+.textloc
+{
+	width: 15%;
+	height: 100%;
+	/*text-align: center;*/
+	line-height:70px;
+	float: left;
+}
+
+a
+{
+	text-decoration: none;
+	display: inline-block;
+}
+
+header p 
+{
+	font-family: "微软雅黑";
+	font-size: 25;
+	color: white;
+}
+
+.imgloc img
+{
+	width: 48px;
+	height: 48px;
+}
+
+
+.acontext
+{
+	width: 100%;
+	height: 1100px;
+	background-color: ghostwhite;
+}
+
+.fcontext
+{
+	width: 100%;
+	height: 50%;
+	background-color: black;
+	opacity:0.85;
+}
+
+.maintext
+{
+	margin: 15%;
+}
+
+.maintext h1
+{
+	font-size: 40px;
+	font-family: "微软雅黑";
+	height: 100px;
+	line-height: 100px;
+	color: white;
+	text-align: center;
+}
+
+.maintext p
+{
+	font-size: 20px;
+	font-family: "微软雅黑";
+	height: 200px;
+	color: white;
+}
+
+
+.mainform
+{
+	width 300px;
+	height: 300px;
+	margin: 100px 0px;
+}
+
+.mainform form
+{
+	display: block;
+}
+
+.mainform form input
+{
+	width: 300px;
+	height: 32px;
+	font-family: "微软雅黑";
+	border: 0px;
+	border-radius: 4px;
+}
+
+.lform input
+{
+	background-color: #FFFFB3;
+}
+
+.sform input
+{
+	background-color: #2CBB4D;
+}
+
+.scontext
+{
+	width: 100%;
+	height: 50%;
+	text-align: center;
+	/*background-color: blue;*/
+}
+
+.piction
+{
+	width: 100%;
+	height: 100px;
+	margin: 100px 0px 50px 0px;
+	/*background-color: red;*/
+	text-align: center;
+}
+
+.piction img
+{
+	width: 80px;
+	height: 120px;
+}
+
+h4
+{
+	/*font-family: "微软雅黑";*/
+	font-size: 48;
+	color: darkgray;
+}
+
+.intext
+{
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	/*margin: 50px;*/
+	/*background-color: blue;*/
+}
+
+footer
+{
+	width: 100%;
+	height: 350px;
+}
+ 
+.topdownblank
+{
+	width: 100%;
+	height: 20%;
+	/*background: red;*/
+}
+
+.footcontext
+{
+	width: 100%;
+	height: 60%;
+	/*background: red;*/
+}
+
+.rownum
+{
+	width: 12.5%;
+	height: 100%;
+	/*background-color: red;*/
+	float: left;
+}
+
+footer ul li
+{
+	list-style: none;
+	line-height: 25px;
+}
+
+li a
+{
+	text-decoration: none;
+	color: black;
+}
+
+h6
+{
+	font-size: 28;
+	font-family: "微软雅黑";
+	line-height: 28;
+	/*line-height: 50;*/
+}
+
+.bankbig
+{
+	width: 40%;
+	height: 600px;
+	float: left;
+	/*background-color: red;*/
+}
+
+.logincontext
+{
+	width: 20%;
+	height: 400px;
+	float: left;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 40%;
+	margin-right: 40%;
+	text-align: center;
+}
+
+.logincontext p
+{
+	text-align: left;
+}
+
+.logincontext form
+{
+	border:5,solid;
+	border-radius: 15px;
+	border-color: black;
+	background-color: white;
+}
+
+.logincontext form input
+{
+	width: 250px;
+	height: 32px;
+	font-family: "微软雅黑";
+	background-color: #FFFFBD;
+	border: 0px;
+	border-radius: 4px;
+	position: relative;
+}
+
+.logincontext form P
+{
+	width: 250px;
+	height: 48px;
+	font-family: "微软雅黑";
+	line-height: 48px;
+	/*position: absolute;*/
+}
+
+.logincontext form input[type^="submit"]
+{
+	background-color: #2cb64c;
+}
+
+.logimg
+{
+	margin: 0px;
+	width: 64px;
+	height: 64px;
+	border: dashed;
+	margin: auto;
+	border-radius: 100px;
+	background-color: #000000;
+	text-align: center;
+	/*float: left;*/
+}
+
+.registerheader
+{
+	background-color: white;
+}
+
+.registerheader .imgloc
+{
+	background-color: black;
+}
+
+.registerheader p
+{
+	color: black;
+}
+
+.registerheader form input
+{
+	background-color: gainsboro;
+}
+
+.maincontext
+{
+	width: 100%;
+	height: 600px;
+	/*background-color: gainsboro;*/
+	float: left;
+}
+
+.mainbank
+{
+	width: 20%;
+	height: 600px;
+	float: left;
+	/*background-color: red;*/
+}
+
+.mainmiddle
+{
+	width: 60%;
+	height: 600px;
+	float: left;
+	/*background-color: red;*/
+}
+
+.maintitle
+{
+	width: 100%;
+	height: 20%;
+	/*background-color: royalblue;*/
+}
+
+.mainstep
+{
+	width: 60%;
+	height: 300px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 40px;
+	border: solid ghostwhite;
+	border-radius: 10px;
+	/*padding-right: 25px;*/
+	background-color: ghostwhite;
+	float: left;
+}
+
+.mainstep form input
+{
+	width: 450px;
+	height: 32px;
+	font-family: "微软雅黑";
+	background-color: #FFFFBD;
+	border: 0px;
+	border-radius: 4px;
+	position: relative;
+}
+
+.mainstep form input[type^="submit"]
+{
+	background-color: #2cb64c;
+}
+
+.mainstep h3
+{
+	text-align: center;
+}
+
+.featurediv
+{
+	width: 30%;
+	height: 200px;
+	/*background-color: red;*/
+	margin-top: 150px;
+	margin-left: 20px;
+	margin-bottom: 150px;
+	/*border: solid cadetblue;*/
+	float: left;
+}
